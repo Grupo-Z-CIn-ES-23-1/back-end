@@ -4,6 +4,7 @@ on: push
 
 jobs:
   continuous-integration:
+    name: Continuous Integration
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -20,9 +21,9 @@ jobs:
     needs: continuous-integration
     runs-on: ubuntu-latest
     steps:
-      - uses actions/checkout@v3
+      - uses: actions/checkout@v3
       - name: Zip files
-      - run: |
+        run: |
           zip -r lambda.zip .
       - name: Send to Lambda
         uses: appleboy/lambda-action@master
