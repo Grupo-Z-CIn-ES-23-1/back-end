@@ -2,6 +2,10 @@ const router = require("express").Router();
 
 const userController = require("../controllers/userController");
 
+router.route("/").get((req, res) => {
+  res.json({ message: "Testing", people: ["John", "Jane", "Joel"] });
+});
+
 router.route("/register").post((req, res) => userController.create(req, res));
 
 router.route("/login").post((req, res) => userController.login(req, res));
