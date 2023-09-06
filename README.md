@@ -5,6 +5,9 @@ For the Final Project of Software Engineering Class at Information Systems B.Sc.
 
 <br>
 
+![image](https://github.com/Grupo-Z-CIn-ES-23-1/back-end/assets/15808208/c9df0415-37d0-4a9f-ba8f-a0146f23c3fc)
+
+
 ---
 
 [You can check this app`s Database Model here](/docs/Database_Model.md)
