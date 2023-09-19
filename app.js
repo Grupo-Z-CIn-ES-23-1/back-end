@@ -11,6 +11,8 @@ const swaggerDefinition = {
   info: {
     title: "Express API for FloodForecasting APP",
     version: "1.0.0",
+    description:
+      "This is a REST API application made with Express. It feeds data to the FloodForecasting APP.",
   },
 };
 
